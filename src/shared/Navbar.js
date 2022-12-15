@@ -20,34 +20,34 @@ const Navbar = () => {
         />
       </div>
       <div className="my-6 flex flex-col  justify-center ml-6">
-        <Link
-          to="/"
+        <a
+          href="#home"
           className="text-white hover:text-[#EA0541] text-lg flex items-center my-2"
         >
           <FaHome />
           <h3 className="ml-4 uppercase">Home</h3>
-        </Link>
-        <Link
-          to="/skills"
+        </a>
+        <a
+          href="#skills"
           className="text-white hover:text-[#EA0541] text-lg flex items-center my-2"
         >
           <FaCog />
           <h3 className="ml-4 uppercase">Skills</h3>
-        </Link>{" "}
-        <Link
-          to="/projects"
+        </a>{" "}
+        <a
+          href="#projects"
           className="text-white hover:text-[#EA0541] text-lg  flex items-center my-2"
         >
           <FaLayerGroup />
           <h3 className="ml-4 uppercase ">Projects</h3>
-        </Link>
-        <Link
-          to="/about"
+        </a>
+        <a
+          href="#about"
           className="text-white hover:text-[#EA0541] text-lg flex items-center my-2"
         >
           <FaUserGraduate />
           <h3 className="ml-4 uppercase">About</h3>
-        </Link>
+        </a>
       </div>
       <div className="flex justify-evenly">
         <a href="https://github.com/AnkonCosta" target="_blank">

@@ -13,7 +13,7 @@ import {
 
 const Resume = () => {
   return (
-    <div class="w-11/12 mx-auto my-12">
+    <div id="about" class="w-11/12 mx-auto my-12">
       <div className="grid grid-cols-2 items-center ">
         <div class="text-white bg-[#1F2125] rounded-xl shadow-xl">
           <div class="card-body">
